@@ -33,7 +33,7 @@
     "typescript": "~6.0.3"
   },
   "scripts": {
-    "start": "BRAND=${BRAND:-example} expo start",
+    "start": "node init && BRAND=${BRAND:-example} expo start",
     "ios": "BRAND=${BRAND:-example} expo start --ios",
     "android": "BRAND=${BRAND:-example} expo start --android",
     "typecheck": "tsc --noEmit",

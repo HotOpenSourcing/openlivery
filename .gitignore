@@ -1,4 +1,3 @@
-.env*
 !.env.example
 !.env.docker.example
 *.pem
@@ -34,3 +33,5 @@ internal/
 
 # Local-only Claude context (never committed)
 CLAUDE.local.md
+config.bat
+node_modules
